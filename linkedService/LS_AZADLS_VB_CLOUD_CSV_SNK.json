@@ -1,0 +1,16 @@
+{
+	"name": "LS_AZADLS_VB_CLOUD_CSV_SNK",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"Storage_account_loc": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "@{linkedService().Storage_account_loc}"
+		}
+	}
+}

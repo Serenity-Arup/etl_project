@@ -1,0 +1,15 @@
+{
+	"name": "rituetlproject1998",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "13954255-90da-402c-a07e-ff2a5dc3601d",
+		"tenantId": "19c42fec-a160-445f-8871-2596b15180fc"
+	}
+}

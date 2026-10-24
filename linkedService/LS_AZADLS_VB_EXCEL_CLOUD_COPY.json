@@ -1,0 +1,16 @@
+{
+	"name": "LS_AZADLS_VB_EXCEL_CLOUD_COPY",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"Storage_account_loc": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "@{linkedService().Storage_account_loc}"
+		}
+	}
+}
